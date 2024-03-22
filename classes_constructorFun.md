@@ -26,7 +26,7 @@ like a blueprint of a house is class. the real house made is object .
 ```js
 class House{
     constructor(color){    // constructor define all the properties of the class which it haves 
-        this.color = color;
+        this.color = color;    // also we don't need to use this keyword when using the parameters but w use this keyword only when we define a variable inside the class and want to assign some value to it , and variable name can be nay not compulsory to name it after the parameter
     }
     sofa(){                       // this function will be shared among all the objects which will be created
         console.log('the house color is '+ this.color)
