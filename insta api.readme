@@ -1,0 +1,84 @@
+- first get access token. iter using graph api explorer or using [link](https://developers.facebook.com/micro_site/url/?click_from_context_menu=true&country=IN&destination=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Finstagram-api%2Foverview&event_type=click&last_nav_impression_id=0TBtdn984fpne0xmL&max_percent_page_viewed=95&max_viewport_height_px=620&max_viewport_width_px=1358&orig_http_referrer=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Finstagram-api%2Fguides%2Fcontent-publishing&orig_request_uri=https%3A%2F%2Fdevelopers.facebook.com%2Fajax%2Fdocs%2Fnav%2F%3Fpath1%3Dinstagram-api%26path2%3Dguides%26path3%3Dcontent-publishing&region=apac&scrolled=true&session_id=1QhDrLeAMs77rXxL0&site=developers)
+
+- if you have now the access token.
+ - get facebook page id of the instagram account created ' me?fields=accounts ' 
+```bash
+curl -i -X GET \
+ "https://graph.facebook.com/v19.0/me/accounts?access_token={access-token}"
+```
+
+```json
+ {
+        "access_token": "EAALhOeCQqWIBOZC4jiAZCQ4XsnEshQSQspEFoSGTc9tLKDW290ejY2dLGvxqCpx41oOC4qVP263KJe3PCSsGUHQm7yYy41TnSvI90ZAoMDZA4hZCQ4rrxzwmuuZBh2e8OWE1VIG6kehSFRVCZCjbLI7tZARRBisMUcyNBIpDomn9ayInYuyLxHOZC0ZBorTxdmoijNlqK0baHKjrPKZA3JRnbiIrmzd",
+        "category": "Editor",
+        "category_list": [
+          {
+            "id": "622132518208039",
+            "name": "Editor"
+          }
+        ],
+        "name": "the.pipe_dream",
+        "id": "113116898427719",                         // capture the Page ID
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE"
+        ]
+      },
+
+```
+
+- now get business insta id(ig user id) by using the page id  
+```bash
+curl -i -X GET \
+ "https://graph.facebook.com/v19.0/134895793791914?fields=instagram_business_account&access_token={access-token}"
+```
+```json
+{
+  "instagram_business_account": {
+    "id": "17841405822304914"  // Connected IG User ID
+  },
+  "id": "134895793791914"  // Facebook Page ID
+}
+
+```
+
+- now get a image link - 
+https://i.imgur.com/nv0UXKU.jpeg
+
+- Step 1 of 2: Create Container
+```
+POST https://graph.facebook.com/v19.0/17841400008460056/media
+  ?image_url=https://www.example.com/images/bronz-fonz.jpg
+  &caption=#BronzFonz
+```
+Sample Response
+{
+  "id": "17889455560051444"  // IG Container ID
+}
+
+
+Step 2 of 2: Publish Container
+```
+POST https://graph.facebook.com/v19.0/17841400008460056/media_publish
+  ?creation_id=17889455560051444
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
