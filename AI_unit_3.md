@@ -169,6 +169,24 @@ Also known as inference engine which processes the information given in knowledg
 - diagnosis system
 
 
+## Forward & Backward Deduction.
+These are inference techniques.
+Forward deduction stars with data then moves to goal and backward first see the goal then checks data accordingly. Its just like a detective when first checks the clues to find the culprit is forward deduction and when detective first suspects the culprit and then finds clues according to that is backward deduction.
+### Forward Deduction- 
+- starts with facts and data 
+- uses rules to see what conclusion can be drawn from data and facts
+
+#### benefits-
+
+ - best for specific goals
+##### limitations
+- can leave unexpected paths
+- can be slow when unclear goal.
+
+### Backward Deduction
+- starts with what goal is
+- check facts and rules which will lead to that goal
+
 
 
 
