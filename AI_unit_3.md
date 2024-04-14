@@ -193,7 +193,22 @@ Forward deduction stars with data then moves to goal and backward first see the 
 
 
 
+## Existing Systems (DENDRAL, MYCIN)
+DENDRAL and MYCIN were two pioneering expert systems developed in the 1960s and 1970s that laid the groundwork for modern AI applications.
 
+### DENDRAL
+
+- ***Area of expertise*** - Organic chemistry
+- ***Task*** - to analyze unknown molecule using mass spectrometry data.
+- uses forward deductive also known as forward chaining as had clear goal to analyze the molecular structure
+- it has mass spectrometry data(facts) as input and starts with that, then uses chemical rules(knowledge base) to see potential molecular structure.
+
+### MYCIN
+- Area Of Expertise - Infectious disease diagnosis
+- Task - assist doctors in diagnosing the infectious diseases and recommend antibiotics
+- - used backward deductive 
+- used knowledge base of medical rules about disease, symptoms and antibiotics.
+- first suspects the disease then finds symptoms for that and then suggest antibiotics according to patient
 
 
 
