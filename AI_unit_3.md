@@ -280,3 +280,30 @@ the Self Explaining System explain everything that went in process, provides exp
  - finding correct level of details
  - maintain accuracy
 
+
+## Introduction to pattern Recognition
+process of identifying and understanding patterns and regularities in data.
+- Finding regularities and structure in the given data 
+- by identifying patterns , Ai system can identify meaning from that pattern which will help in classification and all.
+#### Applications
+- speech recognition
+- face recognition
+- biometric
+- nlp
+#### challenges 
+- noise in data
+- uncertinity in data
+- high dimension can cause more computational power usage
+#### techniques 
+- ml
+- deep learning
+- computer vision
+- nlp
+
+
+
+
+
+
+
+
