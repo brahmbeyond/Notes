@@ -92,5 +92,39 @@ A[Car] --> B{provides transportation} --> C{Person}
 ```
 
 
+## Minskey frames
+Minskey frames is a technique to represent knowledge in structured format similar to how humans understand and store information.
+The data is stored in form of 'frames' and each frame has slots and those slots contains some values.
+- frames = like cars
+- slots = like name,model,color
+- fillers= maruti,208,blue
+
+#### benefits - 
+
+- nlp
+- flexibility
+Example:
+```
+Frame: Restaurant 
+Slot: Has menu 
+- Can be filled with: Italian food menu, Sushi menu, etc. 
+Slot: Has seating
+ - Can be filled with: Tables, booths, etc.
+Slot: Serves food
+ - Can be filled with: Italian food, Sushi, etc.
+Slot: Has staff
+ - Can be filled with: Waiter, Chef, etc.
+```
+#### limitations:
+- time consuming for complex
+- can't capture all values
+
+
+
+
+
+
+
+
 
 
