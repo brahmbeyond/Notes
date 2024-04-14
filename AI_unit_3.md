@@ -121,6 +121,22 @@ Slot: Has staff
 
 
 
+## Case Grammar Theory
+It is used to understand the sentence but by going beyond just grammar, by understanding the syntactic structure or the sentence. It goes beyond subject-verb-object analysis and is used in AI.
+- it focuses on what sentence want to convey.
+- use in NLP to understand the meaning of sentences.
+- used in question answering
+- dialogue system with chatbots so that they can understand the meaning of question correctly.
+#### Problems
+- sometimes some words can have multiple roles
+
+
+
+
+
+
+
+
 
 
 
