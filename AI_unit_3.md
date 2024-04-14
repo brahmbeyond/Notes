@@ -251,6 +251,17 @@ meta knowledge is knowledge about knowledge itself. It tells about the structure
 
 
 
+## Expertise Transfer
+using knowledge and skills of one are domain and using that in related domain. It's like a skilled chef using their knowledge of French cuisine to excel at Italian cooking.
+#### Why
+- improved performance
+- reduced training time
+- reduce data scarcity
+
+#### challenges
+- domain differnce
+- bias
+
 
 
 
