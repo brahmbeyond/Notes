@@ -371,3 +371,21 @@ enabling machine to interpret data from their surrounding environment. Giving ma
 - data requirements - real time large data requirements
 
 
+
+## Line Finding
+it is fundamental task of computer vision in which it finds lines in image processing and understanding.
+
+#### importance
+- object segmentation - to divide object into different parts based on regularities and differences
+- object recognition - finding object like building roads etc.
+- understand scene - like building ,walls etc
+
+#### applications
+- medical imagining
+- self driving cars
+- augmented reality -find plane surface to create virtual things on that.
+
+#### challenges
+- noise
+- thin lines in low resolution images
+- occlusions - when part of line is cut by other object
