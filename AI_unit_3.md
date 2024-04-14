@@ -131,7 +131,22 @@ It is used to understand the sentence but by going beyond just grammar, by under
 - sometimes some words can have multiple roles
 
 
-
+## Production Rules Knowledge Base
+set of if-then instructions to tell what to do in specific condition.
+Its like telling a robot on what to do if then happens.
+- rules = the single instruction which is divided into 2 parts , first is condition and other is action on that condition .
+- knowledge base - it is the set of instructions/rules combined together
+***Example***: If red then walk.
+#### Benefits
+- explanable
+- flexible
+- easy
+#### Applications
+- expert systems like if this symptom then this disease
+- games
+- robotics
+#### limitations
+- complex when more rules are there
 
 
 
