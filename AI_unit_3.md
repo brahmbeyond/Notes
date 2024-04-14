@@ -26,3 +26,14 @@ LovesMath(S) = means (S) Sonu love math.
 means all Sonu loves math
 
  - It  solves  Propositional Calculus shortcomings as it depends on variables to tell if they are true or not.
+
+## Horn Clause
+It is specific type of rule system used in logic programming, a branch of AI used in knowledge representation and reasoning. Named after alfred horns in 1950s.
+It is made of at most one positive literal(+ve statement) and any number of negative literal like if A & B are true then C is true.
+***Example:*** If it barks,its a dog. Horns clause uses simplifies version of this in AI.
+***Example:*** If HasFever(patient) ^ HasCough(patient) -> HasFlu(patient)
+#### Benefits -
+ - easier to understand
+ - efficient reasoning
+ - used in NLP, expert systems etc.
+
