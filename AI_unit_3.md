@@ -54,3 +54,43 @@ It stands for Programming in Logic, is a logical and declarative programming lan
 - Expert based systems - best as to capture and reason with human expertise in specific domain
 - NLP - symbolic representation helps to understand language easier.
 - rule based.
+
+
+## Semantic Nets
+Imagine a giant web of connection where the ideas and concepts are linked to each , that what a semantic net in AI is , a graphical representation of relationship between knowledge.
+- nodes/concepts
+- structure/arches/connection/.relationships
+
+ Semantic networks are alternatives to the predicate logic for the knowledge representation technique.
+benefits- 
+- easy to represent and read
+- related knowledge is easily clustered
+```mermaid
+graph LR
+A[Car] --> B{is a vehicle} --> C{Engine}
+A --> D{Has} --> E{Doors}
+A --> F{Has} --> G{Wheels}
+
+```
+
+## Partitioned Nets
+As semantic net can get messy with complex knowledge, so partitioned nets ia like extension to it or can say to complete its shortcomings.
+In this network is broken into smaller parts.
+Each partition focuses on particular  view point.
+Examples:
+```mermaid
+graph LR
+A[Car]
+  --> B{Engine}
+  --> C{Wheels}
+```
+
+```mermaid
+graph LR
+A[Car] --> B{provides transportation} --> C{Person}
+
+```
+
+
+
+
