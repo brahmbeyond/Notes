@@ -322,7 +322,27 @@ It refers to presenting data in structured manner to ai so its machine readable 
 
 
 
+##  Symbolic Description
+representing the knowledge using symbols and human readable lang.
 
+#### common approaches -
+- frames - objects and their attributes
+- semantic networks - graphical representation 
+- logic based - like proportional and predicate - best for factual knowledge
+
+#### benefits
+- human readable
+- flexible
+- knowledge reuse and sharing
+
+#### challenges
+- can be time consuming 
+- scalability issue
+
+#### application
+- knowledge representation
+- nlp
+- expert systems
 
 
 
