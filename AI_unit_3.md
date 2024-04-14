@@ -150,6 +150,23 @@ Its like telling a robot on what to do if then happens.
 
 
 
+## The Inference System
+Also known as inference engine which processes the information given in knowledge base and then draws a conclusion from that.
+#### componants-
+- knowledge base = the vast amount of data /information lib given to ai
+- inference engine = which processes and draws conclusion from knowledge base.
+#### Types:
+- **Deductive inference-** drwas conclusion from given general rules like - if all birds fly and robin is bird then robin flys
+- **inductive inference** - draws conclusion from recognizing patterns and learning from examples like seeing picture of cats with fur , thinks that all cats have fur.
+#### How inference system works-
+- input - given to ai like question,sensor data etc
+- search - from knowledge base
+- process -draws conclusion, perform deductive or inductive inference
+- Output - gives answers
+#### Applications
+- NLP
+- expert systems
+- diagnosis system
 
 
 
