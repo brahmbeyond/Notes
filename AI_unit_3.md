@@ -263,5 +263,20 @@ using knowledge and skills of one are domain and using that in related domain. I
 - bias
 
 
+## Self Explaining System
+the Self Explaining System explain everything that went in process, provides explanation for its decision, actions in a way understandable to humans.
+#### why
+- trust and transparency.
+- human oversight and debugging - to look for oversights and error
+- human-ai colab 
 
+#### how do they work
+- explaining and highlighting data points which caused that answer.
+- what if that point was different then answer will be diff, explaining different alternative sceneiors
+- rule based explanations - decision based on some rule
+ 
+#### challenges
+ - trade-off with performance
+ - finding correct level of details
+ - maintain accuracy
 
