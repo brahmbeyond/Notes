@@ -172,9 +172,11 @@ Also known as inference engine which processes the information given in knowledg
 ## Forward & Backward Deduction.
 These are inference techniques.
 Forward deduction stars with data then moves to goal and backward first see the goal then checks data accordingly. Its just like a detective when first checks the clues to find the culprit is forward deduction and when detective first suspects the culprit and then finds clues according to that is backward deduction.
-### Forward Deduction- 
-- starts with facts and data 
-- uses rules to see what conclusion can be drawn from data and facts
+
+### Forward Deduction-  Here you know what to do with the given data
+- Begin with the initial set of known facts or input data.
+- Apply inference rules to the known facts to generate new conclusions.
+- Repeat the process iteratively, applying rules to the newly derived facts until no further conclusions can be drawn.
 
 #### benefits-
 
@@ -184,8 +186,10 @@ Forward deduction stars with data then moves to goal and backward first see the 
 - can be slow when unclear goal.
 
 ### Backward Deduction
-- starts with what goal is
-- check facts and rules which will lead to that goal
+- Begin with the desired goal or conclusion that needs to be satisfied.
+- Identify the inference rules or conditions that would lead to the satisfaction of the goal.
+- Work backward, applying inference rules to determine the conditions required for each rule to be applicable.
+- Repeat the process recursively until the initial set of known facts or input data is reached.
 
 
 
