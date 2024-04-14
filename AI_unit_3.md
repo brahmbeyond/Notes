@@ -301,6 +301,25 @@ process of identifying and understanding patterns and regularities in data.
 - nlp
 
 
+##  Structured Description
+It refers to presenting data in structured manner to ai so its machine readable and will help the AI to reason more correctly.
+
+
+#### common approaches -
+- frames - objects and their attributes
+- semantic networks - graphical representation 
+- logic based - like proportional and predicate - best for factual knowledge
+- production rules - defining rules for condition and its action
+
+#### benefits
+- efficiency
+- accuracy
+
+#### application
+- knowledge representation
+- nlp
+- semantic web
+
 
 
 
