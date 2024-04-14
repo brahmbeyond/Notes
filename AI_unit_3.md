@@ -230,7 +230,22 @@ Refers to the exploration and analyzing of a specific area domain to check if th
 - trust
 
 
+## Meta Knowledge
+meta knowledge is knowledge about knowledge itself. It tells about the structure, organization and various things about the data
+#### It includes-
+- structure and organisation 
+- usability of knowledge
+- characteristic and quality
 
+
+#### benefits 
+- improved performance
+- enhanced learning
+- expandability and trust
+
+#### challenges
+- creating metaknowledge 
+- standardization - creating specific rules and guidelines
 
 
 
