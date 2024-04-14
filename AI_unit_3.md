@@ -37,3 +37,20 @@ It is made of at most one positive literal(+ve statement) and any number of nega
  - efficient reasoning
  - used in NLP, expert systems etc.
 
+## Prolog
+It stands for Programming in Logic, is a logical and declarative programming language specially designed for AI.
+- **Declarative lang** - its not like other languages in which whole steps are written , instead facts and rules and problem is given , prolog will find the solution.
+- **Logic-based** = its based on logic, means facts and rules and based on that its derives answers.
+#### - Key features:-
+- **Facts** = means basic statements like bird(sparrow).
+- **Rule** =  anything to express and combine facts like `loves(john, X) :- loves(X, john). % If X loves John, then John loves X (rule)`
+- **Queries** - ask questions based on the facts and rules you defined. like `bird(sparrow) ? - is sparrow a bird ?`
+- **Unification and Backtracking**: - prologs finds the Ans based on facts and rules and if finds i , returns solution known as unification. But if doesn't then finds another possible solution known as backtracking
+#### -Benfits
+- easy
+- good for reasoning
+- flxible
+#### - Applications
+- Expert based systems - best as to capture and reason with human expertise in specific domain
+- NLP - symbolic representation helps to understand language easier.
+- rule based.
