@@ -212,4 +212,30 @@ DENDRAL and MYCIN were two pioneering expert systems developed in the 1960s and 
 
 
 
+## Domain exploration
+Refers to the exploration and analyzing of a specific area domain to check if there is need of AI techniques to solve problems and create opportunities.
+#### why-
+- expanding the AI's reach
+- real world impact 
+- data collection
+
+#### Approach-
+- identify need
+- matching ai techniques
+- collaboration between experts 
+
+#### challenges
+- ethical consideration 
+- data availability
+- trust
+
+
+
+
+
+
+
+
+
+
 
