@@ -346,3 +346,28 @@ representing the knowledge using symbols and human readable lang.
 
 
 
+## Machine perception
+enabling machine to interpret data from their surrounding environment. Giving machine ability to have senses like humans like hear,see,feel.
+
+#### Core functionalities -
+- data acquisition - to get data from sensors ,camers ,microphone etc.
+- data processing - process data to remove noise and etc
+- information extraction - extract information from processed data 
+- understand environment-  now understand env from information like recognizing scene from images 
+
+#### benefits
+- human ai collab - like self driving cars
+- automate tasks - robots
+- healthcare
+
+#### techniques and algo in machine perception
+- computer vision
+- nlp - like sentiment and image caption analysis
+- speech and audio processing
+
+#### challenges
+- sensors limitation
+- real world is complex
+- data requirements - real time large data requirements
+
+
