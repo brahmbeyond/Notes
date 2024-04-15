@@ -440,3 +440,32 @@ Also known as object recognition is a field in computer vision which helps in id
 - image recognition
 
 
+
+## Speech Recognition
+Allows computer to understand the human language by converting the speech into text format.
+
+
+#### core functionality
+- audio input
+- processing - removes noise and all 
+- feature extraction - extracts picth,volume etc
+- predict - use the words sequence and language to predict sentences
+- decode - understand by converting into text
+
+#### benefits
+- human ai interaction
+- accessibility like for blind people
+- automation
+
+#### challenges
+- background noise
+- different speaking styles
+- restricted vocab/grammar
+
+#### application
+- voice assisted robots
+- voice search
+- automatic captioning
+- voice based auth
+- 
+
