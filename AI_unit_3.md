@@ -409,3 +409,34 @@ It means meaning. In AI it focus on how computer understand the meaning of the i
 A model can be a system or process. It acts like a blueprint or recipe that Ai system uses to learn and predict things.
 - ML Models- these are models which are trained on specific large datasets and they recognize specific patterns from data and use it to predict things.
 - Model training - feeding data to models to train them for some task.
+
+
+
+## Object Identification
+Also known as object recognition is a field in computer vision which helps in identify and categorizing the object in images.
+
+#### core
+- visual input
+- feature extraction - extracts the features of the images such as edges,colors textures etc.
+- classification - the it compares the extracted features with its database and the identifies the object based on that
+
+#### benefits-
+- improved efficiency
+- advanced features like self driving cars
+- automation
+
+
+#### techniques 
+- ml - using supervised learning the images are provided with labels and this helps model to learn features and patterns in images and its category
+- deep learning - using cnn can learn highly complex features for image data and achieve high accuracy.
+
+#### challenges
+- visual complexity
+- low resolution
+- low data
+
+#### application 
+- self driving cars
+- image recognition
+
+
