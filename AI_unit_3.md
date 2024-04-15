@@ -389,3 +389,23 @@ it is fundamental task of computer vision in which it finds lines in image proce
 - noise
 - thin lines in low resolution images
 - occlusions - when part of line is cut by other object
+
+
+
+## Interception
+Its like interaction with anything . In AI i can be-
+- Anomaly interception - when anything happens like identify unexpected events or similar thing then AI can react or anything like self driving cars have.
+- signal interception - intercepting the signals and monitoring the network.
+
+## Semantic
+It means meaning. In AI it focus on how computer understand the meaning of the information given to it.
+- Understand context - to understand the meaning behind the given data / facts. to understand relationship between words.
+- knowledge representation- to represent knowledge through graph or anything to understand the relationship between words.
+#### uses
+- nlp
+- chatbots 
+
+## Model
+A model can be a system or process. It acts like a blueprint or recipe that Ai system uses to learn and predict things.
+- ML Models- these are models which are trained on specific large datasets and they recognize specific patterns from data and use it to predict things.
+- Model training - feeding data to models to train them for some task.
