@@ -26,7 +26,9 @@ dict
 
 diff between nested if and elif
 - nested if , the nested one will be reached only if the above if is true of satisfied , but in elif, it will reach elif only when above if false.
-
+ 
+array in numpy  - numpy dosn't alter original data but copies it and performs actions on it.
+- any operation performed using numpy like numpy.delete(array1,0) , so here we will think that array's 0th element will be deleted but in real numpy will create a cpoy of that array and gives output instead of modifying the real array. so take the save chnages you have to store that in a seperate variable 
 
 
 
