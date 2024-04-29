@@ -532,6 +532,78 @@ With XML, data can be available to all kinds of "reading machines" like people, 
 ----
 
 
+# telusko
+
+xml - 
+- to design andriod
+- transfer data
+- configure frameworkl
+
+- xml is used to transfer data unlike html which sends layout also with data.
+
+we can define tags in xml on our own 
+- there should be a root tag
+```
+<loli>
+	<name>shubham</name>
+	<gender>male</gender>
+</loli>
+```
+so here we have two things - structure and content
+- structure = DTD is used to define it
+- content = schema is used to define it and scheme can also define the stucture 
+
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/35e2a68b-b0e2-4ed4-a24a-3920d322fda4)
+
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/5641df05-2ea5-429e-b00b-35af7c36a115)
+
+
+### now for DTD  - document type definition
+- define file name in the xml document so it can use it
+- in thid we have define the stucture( the tags and attributes used insdie the XML file)
+- like in below image the tags/elements are defined using <!ELEMENT> and attributes as <!ATTLIST>
+- we need to define every element in a order
+- +  is used when an element is used multiple times like alien here
+- #PCDATA define the data type of the child element
+
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/c549e138-18dc-4a8a-a390-7b1142775b0e)
+
+
+### now schema - 
+- to define the content of the xml file
+
+- first define the
+```
+<complexType name="aliensType>
+<sequence></sequence>
+</complexType>
+```
+and this will be for every element in xml
+- now drfine the child element in that using <element>
+
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/7fa35b4c-3a0a-45eb-8480-2992872f7e5f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
