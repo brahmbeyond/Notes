@@ -78,6 +78,8 @@ The OSI model provides a theoretical foundation for understanding network commun
 * Defines the physical means of data transmission, such as cables, Wi-Fi, or fiber optics.
 * Specifies the voltage levels, cable specifications, and network topology.
 * Examples: RJ-45 connectors, Ethernet cables, Wi-Fi routers.
+* ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/9405505b-c94c-48b3-9bdd-38662447a454)
+
 
 **2. Data Link Layer (Layer 2)**
 
@@ -90,30 +92,50 @@ The OSI model provides a theoretical foundation for understanding network commun
 * Routes data between networks, providing logical addressing and routing.
 * Determines the best path for data to travel between networks.
 * Examples: IP addresses, routing protocols (RIP, OSPF, BGP).
+*
+* ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/bd4364e8-7551-4626-8673-f58ddbbc6343)
+
 
 **4. Transport Layer (Layer 4)**
 
 * Provides reliable data transfer between devices, including error detection and correction.
 * Manages data segmentation, sequencing, and reassembly.
 * Examples: TCP (Transmission Control Protocol), UDP (User Datagram Protocol).
+* ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/ff28d876-1de2-4476-9467-ae3d6446674b)
+* ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/3f55ee01-1909-4f94-84e0-6f158c90e3b2)
+* ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/6bf0aa6c-e472-491d-bb3e-5f661c354df7)
+* ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/f96ac74a-5978-4f37-ae0b-762a0591c2bb)
+* 
+
+
+
+
 
 **5. Session Layer (Layer 5)**
 
 * Establishes, manages, and terminates connections between applications.
 * Controls the dialogue between applications, including synchronization and checkpointing.
 * Examples: NetBIOS, SSH (Secure Shell).
+*![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/00e1ea1d-98f4-491f-ab05-20d978d18563)
+
+* ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/51909a3b-d270-4e45-a424-64b845665e55)
+
 
 **6. Presentation Layer (Layer 6)**
 
 * Converts data into a format that can be understood by the receiving device.
 * Performs data compression, encryption, and formatting.
 * Examples: SSL/TLS (Secure Sockets Layer/Transport Layer Security), ASCII, JPEG.
+* ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/8eea639a-4a9e-4f91-8095-c2d94388854a)
+
 
 **7. Application Layer (Layer 7)**
 
 * Provides services and interfaces for applications to communicate with each other.
 * Supports functions such as email, file transfer, and web browsing.
 * Examples: HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol).
+* ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/a08b31be-d4ad-4924-a52a-1c02a3153502)
+
 
 **How the OSI Model Works:**
 
