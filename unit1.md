@@ -239,10 +239,27 @@ Imagine you're playing an online game, and you need to send your game state to t
 I hope this helps you understand TCP/IP in more detail! Let me know if you have any questions or need further clarification.
 
 
+
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/751ea140-3ad6-4db0-a1c2-f32e420ea770)
+
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/2718dc39-23a3-40b8-aeb8-61a93b690aed)
+
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/f00e187a-97e2-4624-a263-97a91031ca31)
+
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/79666807-d94c-41ef-9752-7b00027f3db1)
+
+
+
+
+
 ------
 
 
 MAC protocols for high-speed LANs!
+
+https://www.youtube.com/watch?v=G0h0dC4Zycs    - gate smashers  = mac overview
+
+
 
 **MAC (Media Access Control) Protocols**
 
