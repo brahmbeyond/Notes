@@ -29,6 +29,14 @@ Any feedback about network is sent back to the originating host. If some error i
 
 ICMP-echo and ICMP-echo-reply are the most commonly used ICMP messages to check the reachability of end-to-end hosts. When a host receives an ICMP-echo request, it is bound to send back an ICMP-echo-reply. If there is any problem in the transit network, the ICMP will report that problem.
 
+
+
+https://youtu.be/aor29pGhlFE?si=qK7FWy56xBFNBaDL   = linus
+
+IPv6 why not beigns used -
+
+-  https://hostio.solutions/blog/why-isnt-everyone-using-ipv6-yet/#:~:text=IPv6%20was%20not%20designed%20to%20be%20IPv4%20compatible,that%20each%20IPv6%20address%20needs%20an%20IPv4%20address.
+
 ### IPv4
 Internet Protocol Version 4 is a network layer protocol that addresses and controls information and is used to transport packets in a network. To transport data packets across a network, IP and TCP work together. Each host is given a 32-bit IP address consisting of the network and host ID. The host number identifies a host on the network, assigned by a network administrator, whereas the network number identifies a network and is assigned by the internet. The IP is only responsible for delivering the packets, and TCP(a transport layer protocol) helps put them back in the correct order.
 
