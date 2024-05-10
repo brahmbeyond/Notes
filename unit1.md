@@ -434,6 +434,16 @@ types of error =
 So Data link lyaer performs some mechanism to detect and resolve them 
 ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/26bb7aca-1ff9-4839-a330-a8e3eb717ead)
 
+1. Parity check =>
+- adds 1 at end of no. of 1s is odd and adds 0 at end of no. of 1s is even(as 1s already even so adds 0)
+- then sends to the network and after that before reaching the receiver it check for error.
+- if 1s are even then no transmission error. (transmission without error) (in reality same)
+- if anybit is changed and 1s became odd then obvously that its error .(transmission with single bit error)
+- if like bits are changed but 1s already even then also its error as in reality data changed (transmission with multiple bits error).
+
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/682513d1-6d02-410c-8a5c-9e79f21895c9)
+
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/b503208e-6992-46a5-9985-bbc56adcf48b)
 
 
 
