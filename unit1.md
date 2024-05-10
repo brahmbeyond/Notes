@@ -413,4 +413,24 @@ Fast access technologies in computer networks refer to methods and technologies 
 
 ⦁	Content Preloading: Content preloading anticipates user actions and pre-fetches or preloads resources that are likely to be requested in the future. By proactively fetching data before it's actually needed, this technique can reduce perceived latency and improve responsiveness, especially for interactive web applications.
 
+------
+
+## Error control =>
+- sender sends a req, and receiver receives , how will sender know if it receives. Also if lost inbetween them how wil it know. for that itimer is used
+- sender sends a req and starts a timeer , receiver receives and checks and send ack to sender , if it reaches timer is off, if not reachers in time , the snder sendds again. ( the situations can be like sender sends but it not reaches, receiver snds but it not reachers)
+- sends frame by frame
+- sender sends and receiver sends back 2-3 ack for same, then its better to give it index or numbering to know its dupicate packets
+
+
+
+
+
+
+
+
+
+
+
+
+
 
