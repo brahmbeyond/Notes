@@ -423,6 +423,16 @@ Fast access technologies in computer networks refer to methods and technologies 
 
 
 
+## Error Detection and Correction
+when sending the data there can be chnaces that data is correcpted in between with noise or other factors , so for that when data s=comes to receiver , it dosn't performs the required function it has to do.
+types of error =
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/fe476d5f-5196-4c0e-a210-b4a4ead02a2b)
+1. single bit => one bit is correcpted
+2. multiple bit error => multiple bits are correcpted
+3. brust error => multiple bits which are simultanous or adjacent to each other are correcpted
+
+So Data link lyaer performs some mechanism to detect and resolve them 
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/26bb7aca-1ff9-4839-a330-a8e3eb717ead)
 
 
 
