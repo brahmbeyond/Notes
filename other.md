@@ -6,6 +6,9 @@ https://youtu.be/OqsXzkXfwRw?si=tOrFredXi8c-7rdJ
 
 subnetting - https://youtu.be/ecCuyq-Wprc?si=qOfZXqQbhsfi8rO5
 
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/aa3f7ff4-ec3e-48d9-94d5-2ac3390f9473)
+
+
 # NEWORK LAYER PROTOCOLS
 ### Address Resolution Protocol(ARP)
 While communicating, a host needs Layer-2 (MAC) address of the destination machine which belongs to the same broadcast domain or network. A MAC address is physically burnt into the Network Interface Card (NIC) of a machine and it never changes.
