@@ -445,8 +445,43 @@ So Data link lyaer performs some mechanism to detect and resolve them
 
 ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/b503208e-6992-46a5-9985-bbc56adcf48b)
 
+2. checksum error detection
 
+   Imagine you're sending a secret message to your friend. To make sure the message arrives without any mistakes, you could add up all the letters in the message and tell your friend the total. Then, your friend can add up the letters on their end too. If the totals match, it means the message arrived intact.
 
+In computer networks, data is sent in chunks called packets. Each packet has a checksum, which is like the total of all the data in the packet. When the packet reaches its destination, the receiving computer also calculates the checksum. If the calculated checksum matches the one sent with the packet, it means the data arrived safely. But if they don't match, it indicates that there might have been an error during transmission, like a flipped bit or some noise.
+
+So, checksum error detection is like double-checking the total of your message to make sure it hasn't changed during delivery. If the totals match, everything's good. If not, there might be a mistake somewhere.
+
+3. Cyclic Redundancy Check (CRC)
+
+   Imagine you're sending a package through the mail. Before sealing the package, you decide to add a special seal with a unique pattern on it. This pattern is created by doing some math based on the contents of the package. You then send the package off to your friend.
+
+When your friend receives the package, they look at the seal and know how to do the same math to generate the pattern themselves. If the pattern they create matches the one on the seal, they can be pretty confident that the package hasn't been tampered with during transit.
+
+In the world of computer networks, data is like the contents of the package, and the CRC (Cyclic Redundancy Check) is like the special seal. It's a mathematical calculation based on the data that's added to the end of the transmission. When the data arrives at its destination, the receiver does the same math to check if the CRC generated matches the one sent with the data. If they match, it's likely that the data arrived intact. If not, it suggests there may have been errors during transmission.
+
+So, CRC is like a digital seal that helps ensure the integrity of the data as it travels across the network.
+ 4. What's Hamming Code?:
+Hamming codes help computers spot and fix errors that happen when sending data. They do this by adding some extra bits to the original data.
+Key Terms:
+Data Bits: These are the original bits of data you want to send.
+Parity Bits: Extra bits added to the data to help detect and fix errors.
+Hamming Distance: It's like a measure of how different two sets of bits are.
+Syndrome: A pattern of bits that shows if an error occurred and where it happened.
+Example:
+Let's say you want to send the message "1101".
+Adding Parity Bits:
+To decide how many parity bits to add, you need to find the smallest number that gives you enough bits to cover both data and parity bits. For 4 data bits, you'd need 3 parity bits.
+These parity bits are placed at specific positions (like 1, 2, 4, 8...).
+Each parity bit checks certain data bits and gets set to make the total number of 1s even or odd. For example, if a parity bit checks three data bits and sees an odd number of 1s, it gets set to 1 to make the total even.
+Sending the Message:
+You send the message with the extra parity bits to the receiver.
+Checking for Errors:
+At the receiver's end, it recalculates the parity bits.
+If any of the calculated parity bits don't match the received ones, it means there might be an error.
+Fixing Errors:
+The receiver uses the positions of the wrong parity bits (in binary) to find which bit is wrong and flips it.
 
 
 
