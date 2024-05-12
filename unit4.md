@@ -76,4 +76,15 @@ Remember to focus on the key concepts, such as:
 
 Good luck on your exam!
 
+--------
+Microprosser => other term for cpu or implementation in cpu , it is chip with registers, transistors on it.
+Microcontroller => when microprocessor combined with ram,rom,memory it becomes microcontroller . I s for specific purpose like washing machine,camera,keyboard,mouse.
+
+
+
+# 8085 microprocessor   => 8 bit microprocessor
+- a microprocessor is defined by the data bus used in that, what it's size or no of lines used in that.
+- so in 8085 8bit data bus is use so its a 8 bit microprocessor.
+
+- ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/404d30c6-d6e6-4ceb-8edc-8c17a34a25c3)
 
