@@ -23,3 +23,18 @@ For parallel processing = > connecting more than one cpu in a single computer, h
 
 ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/d7723814-685f-470e-9a4d-0c69c6d67159)
 
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/48feb1cd-7365-42eb-b7b5-ca6c79a74867)
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/072fb449-b4da-4463-ab61-463e299a886e)
+
+
+## cube connected network
+
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/ef9b5ee0-0777-4171-8c53-2bfa6fdbd4fd)
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/43d7578c-0bb5-4a0a-9f58-a64f94c2f306)
+
+
+-----
+
+
+
+
