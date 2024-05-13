@@ -18,6 +18,16 @@ For parallel processing = > connecting more than one cpu in a single computer, h
 ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/99b15662-2781-4567-8a73-cd5a89d61b6f)
 
 ## Dynamic Interconnection netwrok
+- Unlike Static Interconnection Network, where connections are fixed between node, it enables the dynamic reconfiguration of connection to adapt to changing communication requirements.
+
+ Some key points about Dynamic Interconnection Network,
+
+- Reconfiguration
+- Switching Mechanisms
+- Flexibility
+- Scalability
+- Fault Tolerance
+- Communication Efficiency
 ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/f34756c0-b2d7-4df3-9071-2c6c7f2bad4b)
 ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/00483373-7010-4f92-b58a-db7c0fd3d2ba)
 
