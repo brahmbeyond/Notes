@@ -17,4 +17,9 @@ For parallel processing = > connecting more than one cpu in a single computer, h
 
 ![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/99b15662-2781-4567-8a73-cd5a89d61b6f)
 
-## 
+## Dynamic Interconnection netwrok
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/f34756c0-b2d7-4df3-9071-2c6c7f2bad4b)
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/00483373-7010-4f92-b58a-db7c0fd3d2ba)
+
+![image](https://github.com/brahmbeyond/Notes-App/assets/65112908/d7723814-685f-470e-9a4d-0c69c6d67159)
+
