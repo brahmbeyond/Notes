@@ -35,82 +35,52 @@ HTML lists are used to group a collection of items together, such as a list of o
 
 1. **Ordered List (OL)**: An ordered list is a list of items that are numbered in a specific order. The numbers can be in numerical, alphabetical, or roman numeral format.
 
-Example:
-```
-<ol>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ol>
-```
-Output:
-
-1. Item 1
-2. Item 2
-3. Item 3
-
 2. **Unordered List (UL)**: An unordered list is a list of items that are not numbered. Instead, they are displayed with bullet points.
-
-Example:
-```
-<ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
-</ul>
-```
-Output:
-
-• Item 1
-• Item 2
-• Item 3
 
 3. **Definition List (DL)**: A definition list is a list of terms and their definitions.
 
-Example:
-```
-<dl>
-  <dt>Term 1</dt>
-  <dd>Definition of Term 1</dd>
-  <dt>Term 2</dt>
-  <dd>Definition of Term 2</dd>
-</dl>
-```
-Output:
-
-Term 1
-Definition of Term 1
-
-Term 2
-Definition of Term 2
 
 **HTML Tables**
 
 HTML tables are used to display data in a tabular format. A table consists of rows and columns, and each intersection of a row and column is called a cell.
 
-Example:
 ```
-<table>
+<table border='1px solid black' >   #normal table - horizonatal
+
+<tr >
+  <th colspan='2'>head1</th>
+  <th>head2</th>
+</tr>
+
+<tr>
+  <td rowspan='2'>hehhe</td>
+  <td>huihuihui</td>
+</tr>
+<tr>
+  <td>hehhe</td>
+  <td>huihuihui</td>
+</tr>
+
+</table>
+     
+<table>    verticle table 
   <tr>
-    <th>Name</th>
+    <th>Firstname</th>
+    <td>Jill</td>
+    <td>Eve</td>
+  </tr>
+  <tr>
+    <th>Lastname</th>
+    <td>Smith</td>
+    <td>Jackson</td>
+  </tr>
+  <tr>
     <th>Age</th>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>25</td>
-  </tr>
-  <tr>
-    <td>Jane</td>
-    <td>30</td>
+    <td>94</td>
+    <td>50</td>
   </tr>
 </table>
 ```
-Output:
-
-| Name | Age |
-| --- | --- |
-| John | 25 |
-| Jane | 30 |
 
 **HTML Images**
 
