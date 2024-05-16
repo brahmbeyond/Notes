@@ -339,13 +339,18 @@ function Person(name, age, occupation) {
 
 const person = new Person('John', 30, 'Developer');
 ```
-3. **Object.create()**: The `Object.create()` method creates a new object that inherits from an existing object.
+3. **Object.create()**: The `Object.create()`  creates an object from an existing object.
+
 ```JavaScript
-const person = Object.create({
-  name: 'John',
-  age: 30,
-  occupation: 'Developer'
-});
+// Create an Object:
+const person = {
+  firstName: "John",
+  lastName: "Doe"
+};
+
+// Create new Object
+const man = Object.create(person);
+man.firstName = "Peter";
 ```
 **Object Properties**
 
