@@ -4,27 +4,27 @@ Here's a detailed explanation of HTML lists, tables, images, forms, and frames:
 
 HTML lists are used to group a collection of items together, such as a list of options, a list of links, or a list of items to be displayed. There are three types of lists in HTML:
 ```
-<ol type='A'>    
+<ol type='A'>     #a,A,i,I,1
   <li >hi</li>
 </ol>
 
-<ol start='20'>    
+<ol start='20'>     #only number can start
   <li >hui</li>
 </ol>
 
 
-<ul type='circle'>
+<ul type='circle'>    #circle,disc,square,none
   <li>hehehe</li>
 </ul>
 
-<ul style="list-style-type:disc;">
+<ul style="list-style-type:disc;">   #other way
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul>
 
-<dl>
-  <dt>Coffee</dt>
+<dl>                            #dl , dt, dd
+  <dt>Coffee</dt> 
   <dd>- black hot drink</dd>
   <dt>Milk</dt>
   <dd>- white cold drink</dd>
