@@ -91,6 +91,8 @@ Example:
 <img src="image.jpg" alt="An image of a cat" width="" height="">
 ```
 Output: An image of a cat will be displayed.
+
+
 -----
 
 Here's a comprehensive explanation of HTML forms, including each element, type, attribute, and an example:
