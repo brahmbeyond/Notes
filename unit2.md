@@ -3,6 +3,35 @@ Here's a detailed explanation of HTML lists, tables, images, forms, and frames:
 **HTML Lists**
 
 HTML lists are used to group a collection of items together, such as a list of options, a list of links, or a list of items to be displayed. There are three types of lists in HTML:
+```
+<ol type='A'>    
+  <li >hi</li>
+</ol>
+
+<ol start='20'>    
+  <li >hui</li>
+</ol>
+
+
+<ul type='circle'>
+  <li>hehehe</li>
+</ul>
+
+<ul style="list-style-type:disc;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+```
+
+
 
 1. **Ordered List (OL)**: An ordered list is a list of items that are numbered in a specific order. The numbers can be in numerical, alphabetical, or roman numeral format.
 
