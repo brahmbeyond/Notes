@@ -353,34 +353,6 @@ Output: A web page with two frames, each displaying a separate HTML document, wi
 
 Note: Frames are no longer supported in HTML5 and are considered deprecated. Instead, use CSS layouts or responsive design to create multi-column layouts.
 
-Here are some additional attributes and elements that can be used with the above elements:
-
-* **List attributes**:
-	+ `type`: specifies the type of bullet point or numbering system to use
-	+ `start`: specifies the starting number for an ordered list
-	+ `value`: specifies the value of a list item
-* **Table attributes**:
-	+ `border`: specifies the width of the table border
-	+ `cellpadding`: specifies the space between the cell content and the cell border
-	+ `cellspacing`: specifies the space between cells
-	+ `width` and `height`: specify the width and height of the table
-* **Image attributes**:
-	+ `width` and `height`: specify the width and height of the image
-	+ `border`: specifies the width of the image border
-	+ `align`: specifies the alignment of the image
-* **Form attributes**:
-	+ `action`: specifies the URL of the server-side script that will process the form data
-	+ `method`: specifies the HTTP method to use when submitting the form data
-	+ `enctype`: specifies the encoding type of the form data
-* **Frame attributes**:
-	+ `src`: specifies the URL of the HTML document to display in the frame
-	+ `name`: specifies the name of the frame
-	+ `scrolling`: specifies whether the frame should have a scrollbar
-
-I hope this helps! Let me know if you have any questions or need further clarification.
-
-
-
 -----
 
 
