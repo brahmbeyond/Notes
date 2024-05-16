@@ -165,7 +165,7 @@ There are several types of JavaScript functions:
 A function declaration is the most common type of function. It's defined using the `function` keyword, followed by the function name, parameters in parentheses, and the function body in curly braces.
 
 **Example:**
-```
+```javascript
 function greet(name) {
   console.log(`Hello, ${name}!`);
 }
@@ -177,7 +177,7 @@ greet("John"); // Output: Hello, John!
 A function expression is a function that is defined as an expression, often assigned to a variable.
 
 **Example:**
-```
+```javascript
 const greet = function(name) {
   console.log(`Hello, ${name}!`);
 };
@@ -189,7 +189,7 @@ greet("Jane"); // Output: Hello, Jane!
 An arrow function is a concise way to define a function. It's defined using the `=>` symbol, followed by the function body.
 
 **Example:**
-```
+```javascript
 const greet = (name) => {
   console.log(`Hello, ${name}!`);
 };
@@ -201,7 +201,7 @@ greet("Bob"); // Output: Hello, Bob!
 A method is a function that is part of an object.
 
 **Example:**
-```
+```javascript
 const person = {
   name: "Alice",
   sayHello: function() {
@@ -216,7 +216,7 @@ person.sayHello(); // Output: Hello, my name is Alice!
 A constructor is a special type of function that is used to create objects.
 
 **Example:**
-```
+```javascript
 function Person(name, age) {
   this.name = name;
   this.age = age;
@@ -231,7 +231,7 @@ console.log(person.age); // Output: 30
 Functions can take arguments, which are values passed to the function when it's called.
 
 **Example:**
-```
+```javascript
 function add(a, b) {
   return a + b;
 }
@@ -244,7 +244,7 @@ console.log(result); // Output: 5
 Functions can return a value, which is the result of the function execution.
 
 **Example:**
-```
+```javascript
 function getUserName() {
   return "John Doe";
 }
@@ -257,7 +257,7 @@ console.log(userName); // Output: John Doe
 Functions have their own scope, which means that variables defined inside a function are not accessible outside the function.
 
 **Example:**
-```
+```javascript
 function greet(name) {
   let message = `Hello, ${name}!`;
   console.log(message);
@@ -271,7 +271,7 @@ console.log(message); // Error: message is not defined
 Functions are "hoisted" to the top of their scope, which means that they can be called before they're defined.
 
 **Example:**
-```
+```javascript
 greet("John"); // Output: Hello, John!
 
 function greet(name) {
@@ -283,7 +283,7 @@ function greet(name) {
 An IIFE is a function that is defined and called immediately.
 
 **Example:**
-```
+```javascript
 (function() {
   console.log("Hello, World!");
 })();
@@ -293,7 +293,7 @@ An IIFE is a function that is defined and called immediately.
 A closure is a function that has access to its own scope and the scope of its parent functions.
 
 **Example:**
-```
+```javascript
 function outer() {
   let x = 10;
 
