@@ -448,7 +448,10 @@ console.log(newPerson.name); // Output: John
 ```
 That's a comprehensive overview of JavaScript objects! I hope this helps you understand objects better.
 
+------------
 
+Event handling in js 
+https://www.javascripttutorial.net/javascript-dom/handling-events-in-javascript/
 
 
 
