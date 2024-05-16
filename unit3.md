@@ -30,7 +30,7 @@ These are just some of the key features of JavaScript that make it such a popula
 * `function` statements declare functions.
 
 Example:
-```
+```JavaScript
 var x = 10;
 let y = 20;
 const z = 30;
@@ -45,7 +45,7 @@ function add(a, b) {
 * The expression is evaluated, and the result is discarded.
 
 Example:
-```
+```JavaScript
 x = 10;
 console.log("Hello World!");
 ```
@@ -55,7 +55,7 @@ console.log("Hello World!");
 * Blocks are used to group statements together.
 
 Example:
-```
+```JavaScript
 if (x > 10) {
   console.log("x is greater than 10");
   y = 20;
@@ -68,7 +68,7 @@ if (x > 10) {
 * `switch` statements execute a block of code based on the value of an expression.
 
 Example:
-```
+```JavaScript
 if (x > 10) {
   console.log("x is greater than 10");
 } else {
@@ -93,7 +93,7 @@ switch (x) {
 * `do...while` statements execute a block of code while a condition is true.
 
 Example:
-```
+```JavaScript
 while (x < 10) {
   console.log("x is less than 10");
   x++;
@@ -116,7 +116,7 @@ do {
 * `throw` statements throw an exception.
 
 Example:
-```
+```JavaScript
 for (var i = 0; i < 10; i++) {
   if (i === 5) {
     break;
@@ -137,7 +137,7 @@ function add(a, b) {
 * It is used to indicate that no code should be executed.
 
 Example:
-```
+```JavaScript
 ;
 ```
 Note that empty statements are not commonly used and can make the code harder to read and understand.
@@ -311,6 +311,137 @@ That's a comprehensive overview of JavaScript functions! I hope this helps you u
 
 --------
 
+# JavaScript objects
+
+**What is a JavaScript Object?**
+
+A JavaScript object is a collection of key-value pairs, where each key is a string and each value can be any type of data, including strings, numbers, booleans, arrays, functions, and even other objects. Objects are used to represent complex data structures and to organize code in a modular and reusable way.
+
+**Creating an Object**
+
+There are several ways to create an object in JavaScript:
+
+1. **Object Literal**: An object literal is a simple way to create an object using curly braces `{}` and assigning key-value pairs.
+```JavaScript
+const person = {
+  name: 'John',
+  age: 30,
+  occupation: 'Developer'
+};
+```
+2. **Constructor Function**: A constructor function is a special type of function that is used to create objects.
+```JavaScript
+function Person(name, age, occupation) {
+  this.name = name;
+  this.age = age;
+  this.occupation = occupation;
+}
+
+const person = new Person('John', 30, 'Developer');
+```
+3. **Object.create()**: The `Object.create()` method creates a new object that inherits from an existing object.
+```JavaScript
+const person = Object.create({
+  name: 'John',
+  age: 30,
+  occupation: 'Developer'
+});
+```
+**Object Properties**
+
+Object properties are the key-value pairs that make up an object. Properties can be:
+
+* **Data Properties**: These are the key-value pairs that store data.
+* **Accessor Properties**: These are the key-value pairs that store functions that get or set a value.
+
+**Example:**
+```JavaScript
+const person = {
+  name: 'John', // data property
+  age: 30, // data property
+  getOccupation: function() { // accessor property
+    return 'Developer';
+  }
+};
+```
+**Accessing Object Properties**
+
+Object properties can be accessed using the dot notation or bracket notation.
+
+**Example:**
+```JavaScript
+const person = {
+  name: 'John',
+  age: 30
+};
+
+console.log(person.name); // Output: John
+console.log(person['age']); // Output: 30
+```
+**Object Methods**
+
+Object methods are functions that are part of an object. They can be used to perform actions on the object or its properties.
+
+**Example:**
+```JavaScript
+const person = {
+  name: 'John',
+  age: 30,
+  sayHello: function() {
+    console.log(`Hello, my name is ${this.name}!`);
+  }
+};
+
+person.sayHello(); // Output: Hello, my name is John!
+```
+
+**Object JSON**
+
+JSON (JavaScript Object Notation) is a lightweight data interchange format that is used to represent objects as strings.
+
+**Example:**
+```JavaScript
+const person = {
+  name: 'John',
+  age: 30
+};
+
+const jsonString = JSON.stringify(person);
+console.log(jsonString); // Output: {"name":"John","age":30}
+
+const parsedObject = JSON.parse(jsonString);
+console.log(parsedObject.name); // Output: John
+```
+**Object Methods**
+
+Here are some common object methods:
+
+* **Object.keys()**: Returns an array of an object's own enumerable property names.
+* **Object.values()**: Returns an array of an object's own enumerable property values.
+* **Object.entries()**: Returns an array of an object's own enumerable property key-value pairs.
+* **Object.assign()**: Copies the values of all enumerable own properties from one or more source objects to a target object.
+* **Object.create()**: Creates a new object that inherits from an existing object.
+* **Object.defineProperty()**: Adds or modifies a property on an object.
+* **Object.defineProperties()**: Adds or modifies multiple properties on an object.
+
+**Example:**
+```JavaScript
+const person = {
+  name: 'John',
+  age: 30
+};
+
+console.log(Object.keys(person)); // Output: ["name", "age"]
+console.log(Object.values(person)); // Output: ["John", 30]
+console.log(Object.entries(person)); // Output: [["name", "John"], ["age", 30]]
+
+const clone = Object.assign({}, person);
+console.log(clone.name); // Output: John
+
+const newPerson = Object.create(person);
+console.log(newPerson.name); // Output: John
+```
+That's a comprehensive overview of JavaScript objects! I hope this helps you understand objects better.
 
 
 
