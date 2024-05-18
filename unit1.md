@@ -15,6 +15,7 @@
 3. **Mobile Applications**: Mobile applications, also known as apps, are software programs designed to run on mobile devices, providing specific functionality and services.
 4. **Mobile Networks**: Mobile networks, including cellular networks and Wi-Fi, provide wireless connectivity for mobile devices to access the internet and communicate with other devices.
 5. **Mobile Data**: Mobile data refers to the information and content accessed and exchanged over mobile networks, including text messages, emails, images, and videos.
+6. **Mobile Security**: Mobile security refers to the protection of mobile devices, data, and applications from unauthorized access, malware, and other security threats.
 
 # **Systems Issues in Mobile Computing:**
 
