@@ -1,4 +1,4 @@
-# **Characteristics of Mobile Computing:**
+# **Characteristics of Mobile :**
 
 1. **Mobility**: Mobile devices are designed to be portable and can be carried anywhere, allowing users to access information and communicate on the go.
 2. **Wireless Connectivity**: Mobile devices use wireless communication technologies such as cellular networks, Wi-Fi, Bluetooth, and GPS to connect to the internet and other devices.
@@ -8,7 +8,7 @@
 6. **Personalization**: Mobile devices are often personalized to individual users, with customized settings, apps, and data.
 7. **Context Awareness**: Mobile devices can sense their environment, including factors like time, location, and user activity, to provide context-aware services and applications.
 
-# **Basic Concepts in Mobile Computing:**
+# **Basic Concepts in Mobile :**
 
 1. **Mobile Devices**: Mobile devices include smartphones, tablets, laptops, and other portable devices that can connect to the internet and run applications.
 2. **Mobile Operating Systems**: Mobile operating systems, such as Android and iOS, manage the device's hardware and software resources and provide a platform for running applications.
@@ -17,7 +17,7 @@
 5. **Mobile Data**: Mobile data refers to the information and content accessed and exchanged over mobile networks, including text messages, emails, images, and videos.
 6. **Mobile Security**: Mobile security refers to the protection of mobile devices, data, and applications from unauthorized access, malware, and other security threats.
 
-# **Systems Issues in Mobile Computing:**
+# **Systems Issues in Mobile :**
 
 1. **Power Management**: Mobile devices have limited battery life, requiring power-efficient designs and power management techniques to conserve energy.
 2. **Performance Optimization**: Mobile devices have limited processing power, requiring optimization techniques to improve performance and responsiveness.
