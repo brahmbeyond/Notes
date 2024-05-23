@@ -218,6 +218,7 @@ I hope this helps! Do you have any specific questions about SVMs?
 
 ![image](https://github.com/brahmbeyond/Notes/assets/65112908/9be18dd0-58b6-4217-ac92-fe8162618d7d)
 
+Min and max  => players in games
 The Minimax Algorithm in Game Playing!
 
 **What is the Minimax Algorithm?**
@@ -263,6 +264,74 @@ I hope this helps! Do you have any specific questions about the Minimax Algorith
 
 
 --------
+
+![image](https://github.com/brahmbeyond/Notes/assets/65112908/0c60579d-3ae4-43da-aab9-fc126258616e)
+
+
+https://www.geeksforgeeks.org/difference-between-informed-and-uninformed-search-in-ai/
+
+---------
+
+# Alpha Beta Pruning
+
+It is advanced version of MinMax Algo .
+It cut off search means less search. If got a path then don't search for unnecessary paths and willl prune the action so called alpha beta pruning.
+- alpha and beta players in games
+
+
+Alpha-beta pruning! It's a fundamental concept in game theory and artificial intelligence, but I'll break it down in simple terms.
+
+**What is Alpha-Beta Pruning?**
+
+Alpha-beta pruning is a heuristic search algorithm used to optimize the decision-making process in games, puzzles, or other situations where there are multiple possible moves or choices. It helps to reduce the number of possibilities to consider, making the search more efficient.
+
+**Imagine a Game Tree**
+
+Think of a game tree as a giant tree with many branches, where each branch represents a possible move or choice. The tree grows exponentially as you consider more moves, making it difficult to explore every possibility.
+
+**Alpha (α) and Beta (β)**
+
+In alpha-beta pruning, we use two values to guide the search:
+
+1. **Alpha (α)**: The best possible score for the maximizing player (usually the AI or computer). Alpha represents the highest score the maximizing player can guarantee.
+2. **Beta (β)**: The best possible score for the minimizing player (usually the opponent). Beta represents the lowest score the minimizing player can guarantee.
+
+**The Pruning Process**
+
+Here's how alpha-beta pruning works:
+
+1. **Start with the root node**: Begin at the top of the game tree, where the current game state is represented.
+2. **Explore nodes**: Evaluate each child node (a possible move) and calculate its alpha and beta values.
+3. **Prune nodes**: If a node's alpha value is greater than or equal to the beta value of its parent node, prune (cut off) that branch. This means the maximizing player can guarantee a better score than the minimizing player, so there's no need to explore further.
+4. **Update alpha and beta**: As you explore nodes, update the alpha and beta values based on the best possible scores found so far.
+5. **Repeat steps 2-4**: Continue exploring nodes, pruning branches, and updating alpha and beta values until you reach a leaf node (a final game state) or a predetermined depth.
+
+**Why Alpha-Beta Pruning Works**
+
+By pruning branches that are guaranteed to be worse than the current best score, alpha-beta pruning reduces the number of nodes to explore, making the search more efficient. This is because:
+
+* The maximizing player will always choose the best possible move, so there's no need to consider moves that lead to a worse score.
+* The minimizing player will always try to minimize the score, so there's no need to consider moves that lead to a better score for the maximizing player.
+
+**Simple Example**
+
+Imagine playing Tic-Tac-Toe against an AI. You're "X," and the AI is "O." The game tree looks like this:
+
+```
+      Root
+     /    \
+  X | O  | O | X
+ / \   / \   / \
+...
+```
+
+Using alpha-beta pruning, the AI might prune branches that lead to a guaranteed loss (e.g., if you have two possible winning moves, the AI can prune the branch that leads to a loss).
+
+By pruning these branches, the AI reduces the number of nodes to explore, making the search more efficient and increasing the chances of finding the best move.
+
+That's alpha-beta pruning in a nutshell!
+
+--------------
 
 
 
